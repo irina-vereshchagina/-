@@ -1,0 +1,22 @@
+{
+  "name": "sobutylniki-api",
+  "version": "1.0.0",
+  "description": "In-memory reference implementation of the Sobutylniki MVP backend API described in the product specification.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "sobutylniki",
+    "mvp",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  }
+}
